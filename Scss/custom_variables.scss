@@ -1,0 +1,15 @@
+$theme-colors: (
+    "primary": #e9378f,
+    "secondary": #9add3b
+);
+
+$border-radius: 10rem;
+
+@media (min-width: 1200px){
+  .container {
+      max-width: 1505px !important;
+  }
+}
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
