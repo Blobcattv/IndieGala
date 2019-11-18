@@ -9,10 +9,11 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="Css/custom_variables.css">
   <link rel="stylesheet" href="Css/style.css">
+  <link href="/fontawesome-free-5.11.2-web/css/all.css" rel="stylesheet">
   <title>Indie Gala 2020</title>
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
   <nav id=" navbar-scroll" class="navbar navbar-expand-lg navbar-light pt-2 fixed-top">
     <div class="container">
@@ -24,8 +25,8 @@
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ml-auto mr-5" data-spy="scroll" data-target="#navbar-scroll" data-offset="0">
           <a class="nav-item nav-link" href="#überuns">Über uns</a>
-          <a class="nav-item nav-link" href="#faq">Features</a>
-          <a class="nav-item nav-link" href="#">Pricing</a>
+          <a class="nav-item nav-link" href="#faq">FAQ</a>
+          <a class="nav-item nav-link" href="#kontakt">Kontakt</a>
         </div>
       </div>
     </div>
@@ -78,7 +79,7 @@
 
   <div class="faq">
     <div class="container">
-      <h1 class="text-center">FAQ</h1>
+      <h1 id="faq" class="text-center">FAQ</h1>
       <div class="row">
 
         <div class="col-6">
@@ -135,13 +136,13 @@
   </div>
 
   <section class="contact pb-5">
-    <h1 class="text-center">Kontakt</h1>
+    <h1 id="kontakt" class="text-center">Kontakt</h1>
     <div class="container">
       <div class="row">
-        <div class="col-6">
+        <div class="col-6 pb-5">
           <h2>Lorem ipsum</h2>
         </div>
-        <div class="col-6">
+        <div class="col-6 pb-5">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5048.301505142682!2d7.0843656430994155!3d50.75423831214545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bee1b49cd67c75%3A0x5773584e3da4ffca!2sHeinrich-Hertz-Europakolleg%20der%20Bundesstadt%20Bonn%2C%20Berufskolleg!5e0!3m2!1sde!2sde!4v1574071699713!5m2!1sde!2sde"
             width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
@@ -149,6 +150,17 @@
       </div>
     </div>
   </section>
+
+  <footer>
+    <div class="container">
+      <div class="text-center center-block">
+        <p>Indie Gala 2020</p>
+        <a href="https://twitter.com/bootsnipp"><i class="fab fa-5x fa-instagram"></i></a>
+        <a href="https://twitter.com/bootsnipp"><i class="fab fa-5x fa-twitter"></i></a>
+        <a href="https://plus.google.com/+Bootsnipp-page"><i class="fas fa-5x fa-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
 
   <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
@@ -166,8 +178,8 @@
       }
     }
     function topFunction() {
-      document.body.scrollTop = 0; 
-      document.documentElement.scrollTop = 0; 
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
     }
   </script>
 

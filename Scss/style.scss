@@ -64,9 +64,7 @@ nav {
   font-size: 19pt;
   background-color: white;
 
-  .nav-item {
-    color: rgb(40, 51, 82) !important;
-  }
+
 
   .logo {
     font-weight: bold;
@@ -133,7 +131,6 @@ nav {
 }
 
 .faq {
-
   padding-bottom: 100px;
   p {
     padding-top: 5px;
@@ -142,13 +139,13 @@ nav {
   }
 }
 
-.contact{
+.contact {
   padding-top: 50px;
 }
 
 #myBtn {
   display: none;
-  position: fixed; 
+  position: fixed;
   bottom: 100px;
   right: 100px;
   z-index: 99;
@@ -157,11 +154,18 @@ nav {
   background-color: #e9378f;
   color: white;
   cursor: pointer;
-  padding: 25px; 
+  padding: 25px;
   border-radius: 200px;
   font-size: 18px;
 }
 
 #myBtn:hover {
-  background-color: #555; 
+  background-color: #555;
+}
+
+footer{
+  background-color: rgb(37, 37, 41);
+  a{
+    padding-right: 25px;
+  }
 }

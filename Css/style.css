@@ -62,10 +62,6 @@ nav {
   background-color: white;
 }
 
-nav .nav-item {
-  color: #283352 !important;
-}
-
 nav .logo {
   font-weight: bold;
   font-size: 27pt;
@@ -162,5 +158,13 @@ nav .logo span:first-child {
 
 #myBtn:hover {
   background-color: #555;
+}
+
+footer {
+  background-color: #252529;
+}
+
+footer a {
+  padding-right: 25px;
 }
 /*# sourceMappingURL=style.css.map */
