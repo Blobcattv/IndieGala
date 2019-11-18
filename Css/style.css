@@ -129,4 +129,38 @@ nav .logo span:first-child {
 ::-webkit-scrollbar-thumb:hover {
   background: #c4337b;
 }
+
+.faq {
+  padding-bottom: 100px;
+}
+
+.faq p {
+  padding-top: 5px;
+  font-size: 15pt;
+  font-weight: 200;
+}
+
+.contact {
+  padding-top: 50px;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 100px;
+  right: 100px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #e9378f;
+  color: white;
+  cursor: pointer;
+  padding: 25px;
+  border-radius: 200px;
+  font-size: 18px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
 /*# sourceMappingURL=style.css.map */

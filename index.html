@@ -80,20 +80,97 @@
     <div class="container">
       <h1 class="text-center">FAQ</h1>
       <div class="row">
-        <div class="col-6">
-         
-          <div class="faqbox">
 
+        <div class="col-6">
+          <div class="d-flex justify-content-center mb-3">
+            <div class="p-2 d-flex flex-column align-items-center justify-content-center">
+              <div class="icon p-3"> <img src="Image/heart.jpg" alt=""> </div>
+            </div>
+            <div class="d-flex flex-column mt-4">
+              <h2>Pressemitteilung</h2>
+              <p>test</p>
+            </div>
           </div>
         </div>
-        <div class="col-6">
 
+        <div class="col-6">
+          <div class="d-flex justify-content-center mb-3">
+            <div class="p-2 d-flex flex-column align-items-center justify-content-center">
+              <div class="icon p-3"> <img src="Image/heart.jpg" alt=""> </div>
+            </div>
+            <div class="d-flex flex-column mt-4">
+              <h2>Pressemitteilung</h2>
+              <p>test</p>
+            </div>
+          </div>
         </div>
+
+        <div class="col-6">
+          <div class="d-flex justify-content-center mb-3">
+            <div class="p-2 d-flex flex-column align-items-center justify-content-center">
+              <div class="icon p-3"> <img src="Image/heart.jpg" alt=""> </div>
+            </div>
+            <div class="d-flex flex-column mt-4">
+              <h2>Pressemitteilung</h2>
+              <p>test</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6">
+          <div class="d-flex justify-content-center mb-3">
+            <div class="p-2 d-flex flex-column align-items-center justify-content-center">
+              <div class="icon p-3"> <img src="Image/heart.jpg" alt=""> </div>
+            </div>
+            <div class="d-flex flex-column mt-4">
+              <h2>Pressemitteilung</h2>
+              <p>test</p>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   </div>
+  </div>
+
+  <section class="contact pb-5">
+    <h1 class="text-center">Kontakt</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <h2>Lorem ipsum</h2>
+        </div>
+        <div class="col-6">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5048.301505142682!2d7.0843656430994155!3d50.75423831214545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bee1b49cd67c75%3A0x5773584e3da4ffca!2sHeinrich-Hertz-Europakolleg%20der%20Bundesstadt%20Bonn%2C%20Berufskolleg!5e0!3m2!1sde!2sde!4v1574071699713!5m2!1sde!2sde"
+            width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
   <!-- Optional JavaScript -->
+  <script>
+    mybutton = document.getElementById("myBtn");
+
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    function topFunction() {
+      document.body.scrollTop = 0; 
+      document.documentElement.scrollTop = 0; 
+    }
+  </script>
+
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
