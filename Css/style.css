@@ -36,11 +36,13 @@ h1 {
   padding-top: 100px;
   padding-bottom: 100px;
   text-transform: uppercase;
+  color: #283352;
 }
 
 h2 {
   font-weight: bold;
   font-size: 24pt;
+  color: #283352;
 }
 
 .stage {
@@ -66,7 +68,7 @@ nav {
 nav .nav-link {
   padding-left: 40px !important;
   font-weight: bold;
-  color: #222124 !important;
+  color: #283352 !important;
 }
 
 nav .active {
@@ -114,6 +116,7 @@ nav .logo span:first-child {
 }
 
 .introduction p {
+  color: #283352;
   padding: 20px;
   font-size: 15pt;
   font-weight: 200;
@@ -145,13 +148,20 @@ nav .logo span:first-child {
 }
 
 .faq p {
+  color: #283352;
   padding-top: 5px;
   font-size: 15pt;
   font-weight: 200;
 }
 
-.contact {
+.kontakt {
   padding-top: 50px;
+}
+
+.kontakt .kontakt-img {
+  width: 45%;
+  margin: 0 auto;
+  height: 300px;
 }
 
 #myBtn {
@@ -181,6 +191,7 @@ footer {
 
 footer a {
   padding-right: 25px;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 iframe {
